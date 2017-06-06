@@ -1,0 +1,38 @@
+{
+  "name": "loadmyenvironment",
+  "version": "1.0.0",
+  "description": " NodeJS module to fetch application related variables from and configuration object either from a file, url or a dependency module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "cover": "istanbul cover --report cobertura --report html _mocha -- -R spec",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "revision": "node -e 'console.log(require(\"./package.json\").version);'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:deepaknverma/loadmyenvironment.git"
+  },
+  "author": "Deepak Verma <info@deepakverma.com.au> (http://www.deepakverma.com.au)",
+  "license": "MIT",
+  "dependencies": {
+    "encryptit": "^1.0.2",
+    "errs": "0.3.2",
+    "is-url": "1.2.2",
+    "request": "^2.81.0",
+    "request-promise": "4.2.1",
+    "tmp": "0.0.31",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "chai": "4.0.2",
+    "describe": "1.2.0",
+    "eslint": "3.19.0",
+    "istanbul": "0.4.5",
+    "mocha": "3.4.2",
+    "nock": "9.0.13",
+    "should": "11.2.1",
+    "sinon": "2.3.2"
+  }
+}

@@ -1,0 +1,10 @@
+[18-10-2015]
+=========
+ - added support to read from url and process recursively
+ - ability to return value or set in the process env
+ - ability to pass the key for which you want to return value
+
+[19-10-2015]
+=========
+- Added test cases.
+- Ability to pass custom path to your own env file
