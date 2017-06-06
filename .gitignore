@@ -2,9 +2,6 @@
 logs
 *.log
 
-#ENV JSON
-env.json
-
 # Runtime data
 pids
 *.pid

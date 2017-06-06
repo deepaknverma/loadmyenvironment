@@ -1,4 +1,5 @@
 loadmyenvironment (v1.1.0)
+[![Build Status](https://travis-ci.org/deepaknverma/loadmyenvironment.svg?branch=master)](https://travis-ci.org/deepaknverma/loadmyenvironment)  
 ============
 A NodeJS module to fetch application related variables from and configuration object either from a file, url or a dependency module. 
 
