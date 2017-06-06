@@ -1,6 +1,6 @@
 {
   "name": "loadmyenvironment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " NodeJS module to fetch application related variables from and configuration object either from a file, url or a dependency module.",
   "main": "index.js",
   "scripts": {
